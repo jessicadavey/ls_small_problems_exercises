@@ -15,6 +15,7 @@
   - hash
   - keys are the elements in the array (one of each)
   - values are numbers (positive integers)
+  - but output each key value pair as a string
 
 ## Examples/Test Cases
 ```ruby
@@ -65,10 +66,10 @@ Rules:
   - update new hash each time
 
 Output:
-  - new hash
+  - string representation of new hash
 
 ## Algorithm
-
+```ruby
 Given an array of elements:
 
 Create a new hash
@@ -77,13 +78,14 @@ Iterate through array (array.each):
 
   - compare the current element to the hash keys
       - if the hash keys include the element
-          increment that key's value by one
+          increment the value of that key by one
       - otherwise
           add that element as a new hash key with a value of 1
   - go on to the next element
 
-Return the new hash
-
+Iterate through resulting hash
+  - puts key => value
+```
 ## Code
 
 [Exercise 4](/exercise_4.rb)
