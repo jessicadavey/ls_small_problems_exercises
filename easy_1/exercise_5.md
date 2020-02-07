@@ -46,4 +46,4 @@ Given a string of words separated by a space
 ```
 
 ## Code
-[Exercise 5](\exercise_5.rb)
+[Exercise 5](/exercise_5.rb)
