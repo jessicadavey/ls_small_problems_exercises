@@ -3,10 +3,10 @@ def format_2(amount)
 end
 
 puts "What is the bill?"
-bill = gets.to_f
+bill = (gets.to_f).round(2)
 
 puts "What is the tip percentage?"
-tip_rate = gets.to_f / 100
+tip_rate = (gets.to_f / 100).round(2)
 
 tip = bill * tip_rate
 total = bill + tip
