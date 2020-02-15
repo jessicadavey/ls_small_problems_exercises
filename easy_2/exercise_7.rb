@@ -1,4 +1,4 @@
-# # Solution 1:
+# Solution 1:
 
 i = 1
 
