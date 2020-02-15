@@ -24,6 +24,16 @@ def compute_product(integer)
   total
 end
 
+# Rewrite with Enumerable#inject
+
+def compute_sum(num)
+  (1..num).inject(:+)
+end
+
+def compute_product(num)
+  (1..num).inject(:*)
+end
+
 
 num = ""
 
