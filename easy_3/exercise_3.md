@@ -35,4 +35,9 @@ There are 13 characters in "walk, don't run".
 
 ## Algorithm
 
+- GET string from user
+- String.delete all spaces
+- String.size to count the remaining characters
+- PRINT string size
+
 ## Code
