@@ -30,7 +30,18 @@ def string_to_integer(string_num)
 
 end
 
+def string_to_signed_integer(string)
+  if string[0] == '-'
+    string.delete!('-')
+    string_to_integer(string) * -1
+  elsif string[0] == '+'
+    string.delete!('+')
+    string_to_integer(string)
+  else
+    string_to_integer(string)
+  end
+end
 
-puts string_to_integer('4321') == 4321
-puts string_to_integer('570') == 570
-puts string_to_integer('8') == 8
+puts string_to_signed_integer('4321') == 4321
+puts string_to_signed_integer('-570') == -570
+puts string_to_signed_integer('+100') == 100
