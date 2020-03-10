@@ -20,7 +20,7 @@ letter_percentages('123') == { lowercase: 0, uppercase: 0, neither: 100 }
 
 ## Algorithm
 
-1. initialize a hash (`result`) with appropriate keys (lowercase, uppercase, neither)
+1. initialize an emtpy hash (`result`)
 2. set result[lowercase] = pecentage string.count("a-z")
 3. set result[uppercse] = percentage string.count("A-Z")
 4. set result [neither] = 100 - lowercase - uppercase
