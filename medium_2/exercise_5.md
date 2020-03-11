@@ -24,7 +24,7 @@ triangle(3, 1, 1) == :invalid
 
 1. get 3 numbers
 2. if smallest + next smallest < largest, return :invalid
-3. elsif side1 == side && side2 == side 3 return :equilateral
+3. elsif side1 == side2 && side2 == side 3 return :equilateral
 4. elsif side1 == side 2 || side2 == side3 || side3 == side 1 return :isosceles
 5. else return :scalene
 
